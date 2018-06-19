@@ -33,9 +33,30 @@ var mod1=a%b;// renvoi le reste de la division
 // console.log("multiplication ="+mult);
 // console.log("modulo =" +mod);
 // document.write("somme ="+s);
+
+/*
 document.write("division ="+div);
 document.write("multiplication ="+mult);
 document.write("modulo =" +mod2);
 document.write("modulo =" +mod1);
+*/
+val1 = 5;
+val2= 5;
+if ((val1 === "5") || (val2 === 5)){
+    console.log(val1, +" "+ val2);
+}
 
+if ((5==5) && ("5"==5)){
+    console.log (typeof(5==5));
+    console.log (typeof("5"==5));
+    console.log (typeof("5"));
+    console.log (typeof(5));
+}
+
+if (!((5===5) && ("5"===5))){// negation de condition
+    console.log (typeof(5==5));
+    console.log (typeof("5"==5));
+    console.log (typeof("5"));
+    console.log (typeof(5));
+}
 
