@@ -24,7 +24,7 @@ if (pseudo === valeur1){
             if (essay>0){
               var valeur2 = prompt("Entrer votre mot de passe essay n° "+ essay);
             } else{
-                alert("mot de passe oublier");
+                // alert("mot de passe oublier");
                 confirm("Voulez vous récupérer votre mot de passe");
             }
         }

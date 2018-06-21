@@ -62,18 +62,62 @@ else console.log(AZERTY);
 // var azerty = parseInt(prompt("Quel est votre age"));
 // parsefloat permet de préciser que l'on attend un nombre réel en retour
 // var azerty = parsefloat(prompt("Quel est votre age"));
-var age = parseInt(prompt("Quel est votre age"));
-var major = 18;
-if (age >= major){
-    alert("Super ! tu es majeur");
-} else{
-    alert("Domage!!!!");
-    document.location.href = "https://google.fr";
+// var age = parseInt(prompt("Quel est votre age"));
+// var major = 18;
+// if (age >= major){
+//     alert("Super ! tu es majeur");
+// } else{
+//     alert("Domage!!!!");
+//     document.location.href = "https://google.fr";
+// }
+
+var x = 12;
+// var x= 23;
+// var x = "";
+
+if ((Number.isInteger(x))){// comparaison 
+     if(x<12){
+         console.log("bonjour");
+     }if (x==12){
+         console.log("il est midi");
+     }if (x<=22) {
+         console.log("bonsoir");
+     }else{
+         console.log("bonne nuit");
+     }
+} else {
+    document.location.href="http://devdocs.io/javascript/";
 }
 
 
+var tab = ["yessad", "mohamed", "sex", "dat_naiss", "adresse", "tel", "specialite", "moyen","montion"];
 
+for (i=0; i < tab.length; i++ ){
+    document.write("<br>"+tab[i]+" " +"<br>");
+}
 
+//push 
+tab.push("adil");
+tab.push("7 ans");
+
+// //unshift
+// tab.unshift("7 ans");
+
+// //pop
+// tab.pop();
+
+// //shift
+// tab.shift();
+
+// for (i=0; i < tab.length; i++ ){
+//     document.write("<br>"+"<strong><em><mark>"+tab[i]+"</mark></em></strong>"+" " +"<br>");
+// }
+var moi = string;
+var stagiaire = [{prenom:"mohamed",nom: "yessad", email: " mohamed.yessad@lepoles.com", tel :"06 67 80 55 98"},{prenom: "adil", nom : "yessad", email: "Y@gmail.com", tel:"06 68 75 41"}, {prenom:"papa",nom:"coucou", email:"K@gmail", tel:"070502041"}]
+
+for (i=0; i< stagiaire.length; i++){
+    document.write("<br>"+"<strong><em><mark>"+stagiaire[i].prenom+"</mark></em></strong>"+" " +"<br>")
+}
 
 
 
